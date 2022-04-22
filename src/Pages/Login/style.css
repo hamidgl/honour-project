@@ -1,0 +1,116 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px 0;
+}
+
+.new-customer {
+    padding: 20px;
+    background-color: #f3f2eb;
+    padding-bottom: 100px;
+}
+
+.new-customer p {
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.new-customer .button-wrapper{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+}
+
+.new-customer .button-wrapper a {
+    background: #429f3f;
+    border: 1px solid #429f3f;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'rawline',sans-serif;
+    font-weight: 700;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 24px;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 240px;
+}
+
+.login {
+    padding: 20px;
+    background-color: #f3f2eb;
+}
+
+.login .first-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login .first-group > p{
+    color: red;
+}
+
+.login p {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.login label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c2c2c2;
+    border-radius: 1px;
+    font-family: 'rawline',sans-serif;
+    font-size: 18px;
+    height: 56px;
+    line-height: 1.42857143;
+    padding: 0 9px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.login .checkbox label{
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.login a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #429f3e;
+    font-weight: 500;
+    font-family: 'rawline',sans-serif;
+}
+
+.login .login-button-wrapper {
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+
+button {
+    background: #429f3f;
+    border: 1px solid #429f3f;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'rawline',sans-serif;
+    font-weight: 700;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 24px;
+}

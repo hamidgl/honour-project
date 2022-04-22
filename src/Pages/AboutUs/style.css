@@ -1,0 +1,12 @@
+.image-wrapper {
+    display: flex;
+}
+
+.image-wrapper img {
+    width: 240px;
+    border-radius: 100%;
+}
+
+p {
+    line-height: 34px;
+}
